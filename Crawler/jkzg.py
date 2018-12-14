@@ -59,7 +59,6 @@ def getarturl(pageurl_list, proxy, driver):
 				arturl_list.append(res)
 	return arturl_list
 
-
 def filtrate(title):
 	no_dict=['免费','直播','视频','医院','法','政策','国','省','市','党','政','名额','诊','参观','宣','专家','委','局','院','科','投票','手术','通知','节目','回顾']
 	for word in no_dict:
